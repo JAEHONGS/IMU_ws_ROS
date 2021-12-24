@@ -1,0 +1,8 @@
+<launch>
+
+      <!--node pkg="imu_raw"    name="imu_raw_node"  type="imu_raw_node" output="screen" /-->
+      <node pkg="imu_raw"    name="imu_raw_node"  type="imu_raw_node" />
+
+
+
+</launch>
