@@ -1,0 +1,17 @@
+
+<launch>
+
+
+  <node pkg="gypr_connection" type="gypr_connection_node" name="gypr_connection_node"
+   args="0 0 0 1.5708 0 3.1416 imu_link_ned imu_link 10" output="screen"/>
+
+   <node name="rviz" pkg="rviz" type="rviz" required="true"
+    args="-d $(find gypr_connection)/rviz/config_file.rviz" />
+
+
+
+
+
+
+
+</launch>

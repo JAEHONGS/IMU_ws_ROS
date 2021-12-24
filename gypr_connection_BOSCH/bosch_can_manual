@@ -1,0 +1,11 @@
+sudo modprobe slcan
+
+sudo slcand -o -c -s6 /dev/ttyACM0 can0  (-s6 : bitrate) 
+
+sudo ifconfig can0 up
+
+candump can0
+
+
+
+run gypr_connection_node
